@@ -29,24 +29,36 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background: linear-gradient(to right, #38d9a9, #22b8cf)
 }
 
 table {
-  background-color: aliceblue;
+  background-color: transparent;
+  border-collapse: collapse;
 }
 
-div {
-  width: 500px;
+.table-class {
+  width: 1000px;
   height: 400px;
   overflow: auto;
+  border: 0.8px solid #fff;
 }
 
 th {
   width: 20%;
   text-align: left;
+  background: rgba(255, 255, 255, 0.35);
 }
 
 th, td {
-  padding: 20px 10px;
+  padding: 15px 20px;
+  color: #fff;
+  border-bottom: 0.8px solid #fff;
 }
 
+span {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
